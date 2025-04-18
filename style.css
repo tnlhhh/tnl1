@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    background: #ff4081;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+video, canvas {
+    border: 5px solid #ff4081;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+}
+
+#capture {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#download {
+    background-color: #008CBA;
+    color: white;
+    display: none;
+}
+
+.filters button {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.filters button:hover {
+    background-color: #e68900;
+    transform: scale(1.05);
+}
+
+.stickers img {
+    inline-size: 60px;
+    cursor: pointer;
+    margin: 8px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.stickers img:hover {
+    border-color: #ff4081;
+    transform: scale(1.1);
+}
